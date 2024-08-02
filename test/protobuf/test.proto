@@ -1,0 +1,55 @@
+syntax ="proto3";//版本号
+
+package fixbug;//代码所在的包
+
+//定义生成service 的选项 生成service服务类和描述rpc的方法， 不设置默认不生成
+option cc_generic_services=true;
+
+//数据   列表   映射表
+//定义的请求消息 类型
+
+//定义执行结果的类型，避免重复代码
+message ResultCode{
+    int32 errcode =1;
+    bytes errmsg=2;
+}
+
+message LoginRequest
+{
+    bytes name =1;
+    bytes pwd =2;
+}
+
+//响应消息类型
+message LoginResponse{
+    ResultCode result=1;
+    bool success=2;
+}
+
+
+//定义请求好友列表的消息类型
+message GetFriendListsRequest{
+    int32 usrid =1;
+}
+
+message User{
+    int32 age=1;
+    bytes name=2;
+    enum Sex {
+        MAN=0;
+        WOMAN=1;
+    }
+    Sex sex=3;
+}
+//列表
+//定义响应好友列表的消息类型
+message GetFriendListsResponse{
+    ResultCode result=1;
+    repeated User friend_list=2;//repeted 可重复的-> 列表
+}
+
+//定义描述rpc 方法的类型：service
+service UserServiceRpc{
+    rpc Login (LoginRequest)returns(LoginResponse);
+    rpc GetFriendList(GetFriendListsRequest)returns(GetFriendListsResponse);
+}

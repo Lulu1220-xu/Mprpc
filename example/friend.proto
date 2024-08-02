@@ -1,0 +1,25 @@
+syntax="proto3";
+
+package fixbug;
+
+option cc_generic_services=true;
+
+message ResultCode
+{
+    int32 errcode=1;
+    bytes errmsg=2;
+}
+
+message GetFriendListRequest{
+    uint32 id=1;
+}
+
+message  GetFriendListRespond{
+    ResultCode result=1;
+    repeated bytes friends=2;
+}
+
+//好友服务模块
+service FriendListRpc{
+    rpc GetFriendList(GetFriendListRequest)returns (GetFriendListRespond);
+}

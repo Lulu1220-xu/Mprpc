@@ -1,0 +1,12 @@
+19:46:50->[INFO]  :RpcProvider start, ip : 127.0.0.1 , port: 8000
+20:6:57->[INFO]  :RpcProvider start, ip : 127.0.0.1 , port: 8000
+20:9:3->[INFO]  :RpcProvider start, ip : 127.0.0.1 , port: 8000
+20:10:15->[INFO]  :RpcProvider start, ip : 127.0.0.1 , port: 8000
+20:10:15->[INFO]  :进入远程Login 服务：
+ doing local service: Login
+20:10:18->[INFO]  :name:zhang san ,pwd:123456 
+20:10:18->[INFO]  :Rpc Login response success 
+20:10:18->[INFO]  :进入远程Register 服务：
+ doing Register service: Register
+20:10:18->[INFO]  :id:2000 , name:zhang san , pwd:123456 
+20:10:18->[INFO]  :Rpc Register response success 
