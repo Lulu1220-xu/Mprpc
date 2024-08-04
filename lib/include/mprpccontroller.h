@@ -1,0 +1,28 @@
+#pragma once
+#include <google/protobuf/service.h>
+#include <string>
+
+class Mprpccontroller : public google::protobuf::RpcController
+{
+public:
+    Mprpccontroller();
+
+    void Reset();
+
+    bool Failed() const;
+
+    std::string ErrorText() const;
+
+    void SetFailed(const std::string &reason);
+
+    // 目前未实现的具体功能：
+    void StartCancel();
+
+    bool IsCanceled() const;
+
+    void NotifyOnCancel(google::protobuf::Closure *callback);
+
+private:
+    bool m_failed;         // 过程中的状态Rpc
+    std::string m_errText; // Rpc执行的错误信息
+};

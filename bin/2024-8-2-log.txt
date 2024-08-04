@@ -10,12 +10,3 @@
  doing Register service: Register
 20:10:18->[INFO]  :id:2000 , name:zhang san , pwd:123456 
 20:10:18->[INFO]  :Rpc Register response success 
-21:25:10->[INFO]  :RpcProvider start, ip : 127.0.0.1 , port: 8000
-21:25:10->[INFO]  :进入远程Login 服务：
- doing local service: Login
-21:25:21->[INFO]  :name:zhang san ,pwd:123456 
-21:25:21->[INFO]  :Rpc Login response success 
-21:25:21->[INFO]  :进入远程Register 服务：
- doing Register service: Register
-21:25:21->[INFO]  :id:2000 , name:zhang san , pwd:123456 
-21:25:21->[INFO]  :Rpc Register response success 

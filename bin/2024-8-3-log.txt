@@ -1,0 +1,36 @@
+10:35:30->[INFO]  :RpcProvider start, ip : 127.0.0.1 , port: 8000
+10:35:30->[INFO]  :进入远程Login 服务：
+ doing local service: Login
+10:35:51->[INFO]  :name:zhang san ,pwd:123456 
+10:35:51->[INFO]  :Rpc Login response success 
+10:35:51->[INFO]  :进入远程Register 服务：
+ doing Register service: Register
+10:35:51->[INFO]  :id:2000 , name:zhang san , pwd:123456 
+10:35:51->[INFO]  :Rpc Register response success 
+10:37:59->[INFO]  :RpcProvider start, ip : 127.0.0.1 , port: 8000
+10:37:59->[INFO]  :进入远程Login 服务：
+ doing local service: Login
+10:38:9->[INFO]  :name:zhang san ,pwd:123456 
+10:38:9->[INFO]  :Rpc Login response success 
+10:38:9->[INFO]  :进入远程Register 服务：
+ doing Register service: Register
+10:38:9->[INFO]  :id:2000 , name:zhang san , pwd:123456 
+10:38:9->[INFO]  :Rpc Register response success 
+10:43:32->[INFO]  :RpcProvider start, ip : 127.0.0.1 , port: 8000
+10:43:54->[INFO]  :进入远程Login 服务：
+ doing local service: Login
+10:43:54->[INFO]  :name:zhang san ,pwd:123456 
+10:43:54->[INFO]  :Rpc Login response success 
+10:43:54->[INFO]  :进入远程Register 服务：
+ doing Register service: Register
+10:43:54->[INFO]  :id:2000 , name:zhang san , pwd:123456 
+10:43:54->[INFO]  :Rpc Register response success 
+11:29:20->[INFO]  :RpcProvider start, ip : 127.0.0.1 , port: 8000
+11:29:20->[INFO]  :进入远程Login 服务：
+ doing local service: Login
+11:29:41->[INFO]  :name:zhang san ,pwd:123456 
+11:29:41->[INFO]  :Rpc Login response success 
+11:29:41->[INFO]  :进入远程Register 服务：
+ doing Register service: Register
+11:29:41->[INFO]  :id:2000 , name:zhang san , pwd:123456 
+11:29:41->[INFO]  :����V

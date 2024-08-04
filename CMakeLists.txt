@@ -15,8 +15,11 @@ include_directories(${PROJECT_SOURCE_DIR}/src/include)
 include_directories(${PROJECT_SOURCE_DIR}/example)
 #设置项目库文件搜索路径
 link_directories(${PROJECT_SOURCE_DIR}/lib)
+link_directories(${PROJECT_SOURCE_DIR}/home/stu/ku/zookeeper-3.4.10/src/c/.libs)
+link_directories(${PROJECT_SOURCE_DIR}/usr/local/lib)
 
 #框架文件
 add_subdirectory(src)
 #业务文件 example 包含所有示例代码
 add_subdirectory(example)
+

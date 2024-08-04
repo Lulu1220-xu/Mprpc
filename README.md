@@ -36,3 +36,6 @@
 3.在.cc 文件中重写由 service继承的funcRpc的 func 方法：
 request 提取参数；   执行；   response 写入响应；   回调 done->Run;
 4.框架简介： 实现框架的初始化  ，创建发布rpc 的网络对象（可以实现发布rpc 方法）
+
+
+找不到zk动态库：export LD_LIBRARY_PATH=/home/stu/ku/zookeeper-3.4.10/src/c/.libs:$LD_LIBRARY_PATH  
